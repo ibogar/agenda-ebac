@@ -15,9 +15,6 @@ botaoAdicionar.addEventListener("click", function(e){
 
     elementoTabela = desenhaTabela();
     document.getElementById("corpo-tabela").innerHTML = elementoTabela;
-    
-    console.log(linhasTabela);
-    console.log(elementoTabela);
 })
 
 function incluiLinha() {
